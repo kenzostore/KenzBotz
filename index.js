@@ -56,10 +56,10 @@ const starts = async (kurr = new WAConnection()) => {
         
 
     kurr.on('chat-update', async (message) => {
-        require('./kurr.js')(kurr, message)
-        ownerNumber = ["6281220670449@s.whatsapp.net","6281220670449@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "6281220670449@s.whatsapp.net"
-       otod = `${settings.NomorOwner}@s.whatsapp.net`
+        require('./kurr.js')(kenz, message)
+        ownerNumber = ["6281220670449@s.whatsapp.net","6281220670449@s.whatsapp.net",`${62882007289925}@s.whatsapp.net`]
+        dtod = "62882007289925@s.whatsapp.net"
+       otod = `${62882007289925}@s.whatsapp.net`
     })   
 
 kurr.on('group-participants-update', async (anu) => {
